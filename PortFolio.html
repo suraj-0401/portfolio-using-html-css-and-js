@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">   <Style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color:white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display:flex;
+            justify-content: space-around;
+            text-align: center;
+            height:45px;
+            padding:10px;
+            background-color: rgb(10, 10, 56);
+        }
+        nav ul {
+            display:flex;
+            justify-content:center;
+            /* align-items: center; */
+        }
+        nav ul li{
+            list-style: none;
+            margin:0 9px;
+        }
+        .leftnav{
+            font-size: 1.5rem;
+        }
+        .ullist a{
+            text-decoration: none;
+            color:white;
+
+        }
+        .ullist a:hover{
+           font-size: 1.2rem;
+           color:rgb(134, 90, 90);
+        }
+        .leftsection{
+            display:flex;
+            justify-content: space-around;
+            margin:120px 0;
+        }
+        button{
+            font-size: 1.7rem;
+            color:rgb(81, 40, 40);
+            border:  solid 10px rgb(11, 11, 59);
+            padding:10px;
+            margin:20px;
+
+        }
+        .leftdiv {
+            /* background-color: rgb(126, 15, 15); */
+            width:40%;
+            margin:40px 0;
+            font-size: 3rem;
+            margin:80px 0;
+        }
+        .rightdiv img{
+            width:400px;
+            height:400px;
+            margin:40px 0;
+            border-radius: 10px;
+        }
+        .purple{
+            color:rgb(85, 41, 125);
+        }
+        #element{
+            color:rgb(85, 41, 125);
+        }
+        .secondsection{
+            /* height:1px; */
+            margin:auto;
+            max-width:80vw;
+        }
+        .secondsection h1{
+            font-size:1.2rem;
+        }
+        .gray-text{
+            color:gray;
+        }
+        main hr{
+            border:0px;
+            margin:40px 70px;
+            background-color: rgb(30, 30, 104);
+            height:1.2px;
+        }
+
+        .secondsection .boxsecondsection{
+            background-color: rgb(30, 30, 104);;
+            height:2px;
+            width:70vw;
+            margin:33px 33px;
+            display:flex;
+        }
+        .boxsecondsection .vertical{
+            background-color:white;
+            height:90px;
+            width:1px;
+            margin:0 90px;
+            position:relative;
+            top:-2px;
+
+        }
+        .img-top{
+            position: relative;
+            top:-34px;
+            left:-1px;
+            width:52px;
+        }
+        .text-title{
+            position:relative;
+            top:55px;
+            left:-3px;
+            width:162px;
+            font-weight:400;
+        }
+        .text-desc{
+            width:169px;
+            position:relative;
+            top:68px;
+            left:6px;
+
+        }
+    </Style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="leftnav">Suraj's Portfolio</div>
+            <div class="rightnav">
+                <ul class="ullist">
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Service</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="leftsection">
+            <div class="leftdiv">
+                Hi,My name is <span class="purple">Suraj</span>
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <div class="btn">
+                    <button>
+                        Download Resume
+                    </button>
+                    <button>
+                        Visit Github
+                    </button>
+                </div>
+            </div>
+            <div class="rightdiv">
+                <img src="R.png" alt="">
+            </div>
+        </section><hr>
+        <section class="secondsection">
+            <span class="gray-text">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="boxsecondsection">
+            <div class="vertical">
+                <img src="OIP.png" alt="" class="img-top">
+                <div class="text-title">Web Devloper (2012-2014)</div>
+                <div class="text-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis alias quam rerum doloremque nostrum aliquam iure nobis, sed voluptatibus reiciendis non vitae! Porro error deserunt ad accusantium! Dolores, illum repellendus.
+                </div>
+            </div>
+            <div class="vertical">
+                <img src="OIP.png" alt="" class="img-top">
+                <div class="text-title">JS Devloper (2014-2016)</div>
+                <div class="text-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis alias quam rerum doloremque nostrum aliquam iure nobis, sed voluptatibus reiciendis non vitae! Porro error deserunt ad accusantium! Dolores, illum repellendus.
+                </div>
+
+            </div>
+            <div class="vertical">
+                <img src="OIP.png" alt="" class="img-top">
+                <div class="text-title">HTML Devloper   (2016-2018)</div>
+                <div class="text-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis alias quam rerum doloremque nostrum aliquam iure nobis, sed voluptatibus reiciendis non vitae! Porro error deserunt ad accusantium! Dolores, illum repellendus.
+                </div>
+
+            </div>
+            <div class="vertical">
+                <img src="OIP.png" alt="" class="img-top">
+                <div class="text-title">CSS Devloper (2012-2014)</div>
+                <div class="text-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis alias quam rerum doloremque nostrum aliquam iure nobis, sed voluptatibus reiciendis non vitae! Porro error deserunt ad accusantium! Dolores, illum repellendus.
+                </div>
+
+            </div>
+            <div class="vertical">
+                <img src="OIP.png" alt="" class="img-top">
+                <div class="text-title">CSS Devloper (2012-2014)</div>
+                <div class="text-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis alias quam rerum doloremque nostrum aliquam iure nobis, sed voluptatibus reiciendis non vitae! Porro error deserunt ad accusantium! Dolores, illum repellendus.
+                </div>
+
+            </div>
+            <div class="vertical">
+                <img src="OIP.png" alt="" class="img-top">
+                <div class="text-title">CSS Devloper (2012-2014)</div>
+                <div class="text-desc">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis alias quam rerum doloremque nostrum aliquam iure nobis, sed voluptatibus reiciendis non vitae! Porro error deserunt ad accusantium! Dolores, illum repellendus.
+                </div>
+
+            </div>
+        </div>
+        </section>
+    </main>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Devloper', 'Video Editor','Graphic Designer','Web Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
